@@ -67,6 +67,9 @@ startButton.addEventListener ("click", function() {
         // create li
         const elementi = document.createElement("li");
 
+        // add content to li
+        elementi.append(input.value);
+
         // append li
         listaSpesa.append(elementi)
 
