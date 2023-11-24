@@ -1,3 +1,5 @@
 // add container
 const container = document.querySelector(".container");
-//console.log(container);
+
+// add start button
+const startButton = document.querySelector(".start");
