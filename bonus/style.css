@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* container styler */
+/* container style */
 .container {
     height: 100vh;
     width: 100vw;
@@ -25,4 +25,11 @@
 /* add hidden class */
 .hidden {
     display: none;
+}
+
+/* inner container style */
+.inner_container {
+    height: 100%;
+    width: 100%;
+    background-color: red;
 }
