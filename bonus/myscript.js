@@ -58,6 +58,12 @@ startButton.addEventListener ("click", function() {
         // append containerUl
         innerContainer.append(containerUl);
 
+        // create ul
+        const listaSpesa = document.createElement("ul");
+
+        // append ul
+        containerUl.append("ul");
+
     })
 
 })
