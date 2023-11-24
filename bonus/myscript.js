@@ -26,12 +26,33 @@ startButton.addEventListener ("click", function() {
     input.type = "text";
 
     // add placeholder
-    input.placeholder = "Scrivi qui cosa comprare";
+    input.placeholder = "Scrivi cosa comprare";
 
     // add class
     input.classList.add("user_input");
 
     // append input to inner container
     innerContainer.append(input);
+
+    // create bottone aggiungi
+    const addButton = document.createElement("button");
+
+    // add text to the button
+    addButton.textContent = "Aggiungi elemento";
+
+    // add class
+    addButton.classList.add("add_button");
+
+    // append addButton
+    innerContainer.append(addButton);
+
+    // when click add button
+    addButton.addEventListener ("click", function() {
+
+        // create ul container
+        const containerUl = document.createElement ("div");
+        
+
+    })
 
 })
