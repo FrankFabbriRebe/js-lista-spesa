@@ -51,7 +51,12 @@ startButton.addEventListener ("click", function() {
 
         // create ul container
         const containerUl = document.createElement ("div");
-        
+
+        // add class
+        containerUl.classList.add("container_ul");
+
+        // append containerUl
+        innerContainer.append(containerUl);
 
     })
 
