@@ -62,7 +62,13 @@ startButton.addEventListener ("click", function() {
         const listaSpesa = document.createElement("ul");
 
         // append ul
-        containerUl.append("ul");
+        containerUl.append(listaSpesa);
+
+        // create li
+        const elementi = document.createElement("li");
+
+        // append li
+        listaSpesa.append(elementi)
 
     })
 
