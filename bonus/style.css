@@ -21,3 +21,8 @@
     font-size: 30px;
     border-radius: 30px;
 }
+
+/* add hidden class */
+.hidden {
+    display: none;
+}
