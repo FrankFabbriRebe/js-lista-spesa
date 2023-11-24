@@ -19,4 +19,19 @@ startButton.addEventListener ("click", function() {
     // append inner containewr to container
     container.append(innerContainer);
 
+    // input user
+    const input = document.createElement("input");
+
+    // add type
+    input.type = "text";
+
+    // add placeholder
+    input.placeholder = "Scrivi qui cosa comprare";
+
+    // add class
+    input.classList.add("user_input");
+
+    // append input to inner container
+    innerContainer.append(input);
+
 })
